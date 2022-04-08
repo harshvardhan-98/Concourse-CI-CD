@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 public class CodeInsightsApplication {
-//main
+    //main file
     public static void main(String[] args) {
         SpringApplication.run(CodeInsightsApplication.class, args);
     }
