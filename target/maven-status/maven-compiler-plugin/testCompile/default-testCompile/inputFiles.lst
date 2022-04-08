@@ -1,2 +1,2 @@
-/home/knoldus/Desktop/CodeInsides/src/test/java/com/knoldus/codeinsights/CodeInsightsApplicationTests.java
-/home/knoldus/Desktop/CodeInsides/src/test/java/com/knoldus/codeinsights/controller/PullRequestControllerTest.java
+/home/knoldus/Concourse-CI-CD/src/test/java/com/knoldus/codeinsights/controller/PullRequestControllerTest.java
+/home/knoldus/Concourse-CI-CD/src/test/java/com/knoldus/codeinsights/CodeInsightsApplicationTests.java

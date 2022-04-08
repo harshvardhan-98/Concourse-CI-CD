@@ -26,6 +26,7 @@ import java.util.List;
 @RequestMapping("/codeInsights")
 public class PullRequestController {
 
+    //get API
     private static final Logger log = LoggerFactory.getLogger(PullRequestController.class);
 
     @Autowired
