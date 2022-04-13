@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: Concourse-CI-CD
+spec:
+  selector:
+    app: Concourse-CI-CD
+  type: LoadBalancer
+  ports:
+    - port: 80
+      targetPort: 8080

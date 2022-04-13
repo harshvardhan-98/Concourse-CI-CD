@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: Concourse-CI-CD
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: Concourse-CI-CD
+  template:
+    metadata:
+      labels:
+        app: Concourse-CI-CD
+    spec:
+      containers:
+        - name: app
+          image: gcr.io/PROJECT_ID/IMAGE:TAG
+          imagePullPolicy: Always
