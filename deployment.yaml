@@ -1,16 +1,16 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: Concourse-CI-CD
+  name: concourse-ci-cd
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: Concourse-CI-CD
+      app: concourse-ci-cd
   template:
     metadata:
       labels:
-        app: Concourse-CI-CD
+        app: concourse-ci-cd
     spec:
       containers:
         - name: app
